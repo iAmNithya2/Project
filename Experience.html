@@ -1,0 +1,164 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Work Experience</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            margin: 30px auto;
+            width: 80%;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        td {
+            padding: 10px;
+            vertical-align: top;
+        }
+        td:first-child {
+            font-weight: bold;
+            text-align: right;
+            width: 30%;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        textarea {
+            resize: none;
+        }
+        input[type="submit"] {
+            background-color: #5a9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover{
+            background-color: #47ef47;
+        }
+        footer {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h2 {
+            color: #4a8;
+            margin-bottom: 10px;
+        }
+        .section-title {
+            background-color: whitesmoke;
+            font-weight: bold;
+            padding: 5px 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Work Experience</h1>
+    </header>
+    <main>
+        <form>
+            <p class="section-title">Job Details</p>
+            <table>
+                <tr>
+                    <td>Company Name:</td>
+                    <td><input type="text" name="company_name"></td>
+                </tr>
+                <tr>
+                    <td>Job Title:</td>
+                    <td><input type="text" name="job_title"></td>
+                </tr>
+                <tr>
+                    <td>Start Date:</td>
+                    <td><input type="date" name="start_date"></td>
+                </tr>
+                <tr>
+                    <td>End Date:</td>
+                    <td><input type="date" name="end_date"></td>
+                </tr>
+                <tr>
+                    <td>Responsibilities:</td>
+                    <td><textarea name="responsibilities" rows="4"></textarea></td>
+                </tr>
+            </table>
+
+            <p class="section-title">Achievements and Skills</p>
+            <table>
+                <tr>
+                    <td>Key Achievements:</td>
+                    <td><textarea name="achievements" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Skills:</td>
+                    <td><textarea name="skills" rows="3"></textarea></td>
+                </tr>
+            </table>
+
+            <p class="section-title">References</p>
+            <table>
+                <tr>
+                    <td>Reference Name:</td>
+                    <td><input type="text" name="reference_name"></td>
+                </tr>
+                <tr>
+                    <td>Contact Number:</td>
+                    <td><input type="tel" name="reference_contact"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="reference_email"></td>
+                </tr>
+                <tr>
+                    <td>Relation:</td>
+                    <td><input type="text" name="relation"></td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Job Portal</p>
+    </footer>
+</body>
+</html>
+
